@@ -11,7 +11,6 @@ import sys
 
 domain = sys.argv[1:]
 
-
 for x in domain:
     dns = lookup(x)
     print "{0} : {1}".format(x, dns)

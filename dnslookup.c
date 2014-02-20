@@ -31,7 +31,7 @@ PyObject *dnslookup(PyObject *self, PyObject *args){
  
 static 
 PyMethodDef lookup_methods[] = {
-    {"lookup", dnslookup, METH_VARARGS, "Documentación del módulo ejemplo"},
+    {"lookup", dnslookup, METH_VARARGS, "dnslookup, eg. dnslookup.lookup('www.python.com')"},
     {NULL, NULL, 0, NULL}, /* Sentinel */
 };
  

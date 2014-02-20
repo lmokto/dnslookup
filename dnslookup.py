@@ -1,7 +1,7 @@
 #!/usr/bin/python
 # -*- coding: utf-8 -*-
 '''
-    python dnslookup.py www.lanacion.com.ar www.telpin.com.ar
+    python dnslookup.py www.telpin.com.ar www.lanacion.com.ar
     www.telpin.com.ar : 201.219.64.50
     www.lanacion.com.ar : 23.21.247.181
 '''

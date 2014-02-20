@@ -6,4 +6,4 @@ import sys
 
 domain = sys.argv[1:]
 dns = lookup(domain[0])
-print "{0} : {1}".format(dmain, dns)
+print "{0} : {1}".format(domain, dns)

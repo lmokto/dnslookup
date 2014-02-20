@@ -18,7 +18,7 @@ PyObject *dnslookup(PyObject *self, PyObject *args){
     }
     
     if ((he = gethostbyname(domainName)) == NULL) {  // get the host info
-        herror("gethostbyname");
+        herror("gethostbyname"); 
         return NULL;
     }
     
